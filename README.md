@@ -13,4 +13,4 @@
     # make install
 
 ## Command
-    $ iftop <interface name>
+    $ iftop <interface name> [<additional interface name> ...]

@@ -1,11 +1,9 @@
 /*_
- * Copyright 2011 Scyphus Solutions Co. Ltd.  All rights reserved.
+ * Copyright 2011,2014 Scyphus Solutions Co. Ltd.  All rights reserved.
  *
  * Authors:
  *      Hirochika Asai  <asai@scyphus.co.jp>
  */
-
-/* $Id$ */
 
 #define TRAFFIC_MGT 1
 
@@ -25,7 +23,7 @@
 static void
 _usage(const char *prog)
 {
-    fprintf(stderr, "Usage: %s ifname\n", prog);
+    fprintf(stderr, "Usage: %s <ifname1> [<ifname2> ...]\n", prog);
     exit(EXIT_FAILURE);
 }
 
