@@ -1,13 +1,11 @@
 #
-# $Id$
-#
-# Copyright (c) 2012 Scyphus Solutions Co. Ltd.  All rights reserved.
+# Copyright (c) 2012,2014 Scyphus Solutions Co. Ltd.  All rights reserved.
 # Authors:
 #      Hirochika Asai  <asai@scyphus.co.jp>
 #
 
 AC_PREREQ(2.59)
-AC_INIT([iftop], [0.1.0], [bug@scyphus.co.jp])
+AC_INIT([iftop], [0.1.1], [bug@scyphus.co.jp])
 AC_CONFIG_SRCDIR([iftop.c])
 AC_CONFIG_HEADER([config.h])
 

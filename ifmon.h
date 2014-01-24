@@ -5,8 +5,6 @@
  *      Hirochika Asai  <asai@scyphus.co.jp>
  */
 
-/* $Id$ */
-
 #ifndef _IFMON_H
 #define _IFMON_H
 

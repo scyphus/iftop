@@ -5,8 +5,6 @@
  *      Hirochika Asai  <asai@scyphus.co.jp>
  */
 
-/* $Id$ */
-
 #include "config.h"
 #include "ifmon.h"
 #include "stime.h"
