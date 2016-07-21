@@ -40,7 +40,7 @@ if test x"$WITH_CURSES" = x"yes"; then
   fi
   CURSES_INCLUDE="`$CURSES_CONFIG --includedir`"
   CURSES_LIBS="`$CURSES_CONFIG --libs`"
-  AC_SUBST(CURSES_LIBS)
+  AC_SUBST(CURSES_INCLUDE)
   AC_SUBST(CURSES_LIBS)
   AC_DEFINE(WITH_CURSES, 1, with ncurses)
 elif test x"$WITH_CURSES" = x"no"; then

@@ -5,10 +5,12 @@
 #
 
 #INCLUDES = -I$(top_srcdir)/include
+INCLUDES = -I$(CURSES_INCLUDES)
 
 bin_PROGRAMS = iftop
 iftop_SOURCES = iftop.c ifmon.c ifmon.h stime.c stime.h
-iftop_LDFLAGS = $(CURSES_LIBS)
+#iftop_LDFLAGS = $(CURSES_LIBS)
+iftop_LDADD = $(CURSES_LIBS)
 
 CLEANFILES = *~
 
